@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MAIPO Farma e Hospitalar</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg" style="background-color: #008B8B;">
+
+        <div class="container">
+
+            <!-- LOGO/NOME -->
+            <a class="navbar-brand fw-bold" href="#">
+                MAIPO
+            </a>
+
+            <!-- BOTÃO MOBILE -->
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#menu">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <!-- ITENS DO MENU -->
+            <div class="collapse navbar-collapse" id="menu">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Início
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Sobre
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Serviços
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Contato
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    </nav>
+
+   <!-- HERO SECTION -->
+<div class="container mt-5">
+
+    <div class="row align-items-center">
+
+        <!-- TEXTO -->
+        <div class="col-md-6">
+
+            <h1 class="display-4 fw-bold">
+                Referência em Produtos Farma e Hospitalares.
+            </h1>
+
+            <p class="fs-5 text-secondary mt-3">
+                A MAIPO Farma e Hospitalar trabalha com a distribuição e comercialização
+    de produtos voltados ao setor farmacêutico e hospitalar, prezando pela
+    qualidade, confiança e excelência.
+            </p>
+
+            <!-- BOTÃO -->
+            <a href="https://wa.me/5519993324520"
+               class="btn btn-dark btn-lg mt-3">
+
+                Entrar em Contato
+
+            </a>
+
+        </div>
+
+        <!-- IMAGEM -->
+        <div class="col-md-6 text-center">
+
+            <img src="{{ url_for('static', filename='imagens/maipo.jpg') }}"
+                 class="img-fluid"
+                 width="400">
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
